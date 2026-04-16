@@ -180,12 +180,6 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
-
-Not specified.
-
----
-
 ## ⭐ If you like this project
 
 Give it a star ⭐ on GitHub!
