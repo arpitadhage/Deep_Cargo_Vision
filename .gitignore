@@ -1,138 +1,55 @@
-# ------------------------------
-# Python bytecode and caches
-# ------------------------------
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
 *.py[cod]
-*$py.class
 
-# ------------------------------
-# Build and packaging artifacts
-# ------------------------------
-build/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-*.egg
-pip-wheel-metadata/
-
-# ------------------------------
 # Virtual environments
-# ------------------------------
 .venv/
 venv/
 env/
 ENV/
 
-# ------------------------------
-# Test, coverage, and type-check outputs
-# ------------------------------
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.pyre/
-.hypothesis/
-.tox/
-.nox/
-.coverage
-.coverage.*
-coverage.xml
-htmlcov/
-
-# ------------------------------
-# Jupyter / notebook checkpoints
-# ------------------------------
-.ipynb_checkpoints/
-
-# ------------------------------
-# Streamlit artifacts
-# ------------------------------
-.streamlit/secrets.toml
-
-# ------------------------------
-# Logs and runtime files
-# ------------------------------
-*.log
-logs/
-*.pid
-*.seed
-*.out
-*.err
-
-# ------------------------------
-# IDE and editor settings
-# ------------------------------
-.vscode/
-!.vscode/extensions.json
-!.vscode/settings.json
-.idea/
-*.iml
-
-# ------------------------------
-# OS-specific files
-# ------------------------------
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# ------------------------------
-# Environment and local config
-# ------------------------------
-.env
-.env.*
-!.env.example
-
-# ------------------------------
-# ML model weights and large binary artifacts
-# ------------------------------
-*.ckpt
-*.onnx
-*.engine
-*.tflite
-*.h5
-*.pb
-
-# ------------------------------
-# Data and generated outputs
-# ------------------------------
-data/
-datasets/
-artifacts/
-outputs/
-reports/
-tmp/
-temp/
+# Build files
+build/
+dist/
+*.egg-info/
+*.egg
 
 # Logs
-logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+logs/
 
-node_modules
-dist
-dist-ssr
-*.local
+# Environment variables
+.env
+.env.*
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
 
-.vite
+# Node (frontend)
+node_modules/
+dist/
+.vite/
+
+# ML models (large files)
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# Data & outputs
+data/
+datasets/
+outputs/
+artifacts/
+temp/
