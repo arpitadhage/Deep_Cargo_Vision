@@ -6,9 +6,7 @@ AI-powered cargo inspection system for automated X-ray analysis, threat detectio
 
 ## 🎥 Demo Video
 
-👉 [Watch Demo]([YOUR_DRIVE_OR_YOUTUBE_LINK](https://drive.google.com/file/d/12S3OFV0OLL094COQ0BBeVxMqNZV9FaxB/view?usp=sharing))
-
----
+👉 [Watch Demo](https://drive.google.com/file/d/12S3OFV0OLL094COQ0BBeVxMqNZV9FaxB/view?usp=drive_link)
 
 ## 🧠 Overview
 
